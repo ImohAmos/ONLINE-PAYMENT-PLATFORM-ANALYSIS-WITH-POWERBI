@@ -21,13 +21,12 @@ Here i did an analysis on the platform usage and below were the questions answer
 - Show the growth rate of customer on the platform.
 
 ## Power BI Concepts applied:
-DAX Concepts: Calculated column, Custom Column, Year(), IF().
+DAX Concepts: Calculated column, Custom Column, Calendar Table created.
 Data Modelling: Star Schema
 
 ## Data Sourcing
 Data was given by the Company in excel format. I downloaded the csv file, and extracted it into Power BI for cleaning, analysis and visualization.
-It contains 2 sheets/tables:
-ORDERS with 51,291 rows and 24 columns
+The data contains a sheet/table called Payment Table with 4593 rows and 7 columns
 PEOPLE with 24 rows and 2 columns
 RETURNS with 1079 rows and 3 columns
 
