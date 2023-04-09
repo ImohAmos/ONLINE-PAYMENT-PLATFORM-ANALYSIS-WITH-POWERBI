@@ -48,6 +48,9 @@ Power BI automatically connected related tables resulting in a star schema model
 ![](Payment_User.JPG)
 ![](payment_top.JPG)
 ![](payment_tx_growth.JPG)
+![](mom_users.JPG)
+![](mom_payment.JPG)
+![](model_payment.JPG)
 
 From the dashboard, it is observed that it takes 4 days on average to deliver each product on every order.
 Total sales made in 2012= 2.26M, 2013=2.68M ,2014=3.41M ,2015=4.30M.
