@@ -1,19 +1,24 @@
 # ONLINE-PAYMENT-PLATFORM-ANALYSIS-WITH-POWERBI
-This Analysis was done for a fintech company I worked with
+This Analysis was done for a fintech company I worked for
+
+_Name of company is withheld for certain privacy issues_ 
 
 ![](Paymentt.jpg)
 
 ## Introduction
 
-The company is an online payment platform where consumer can pay bills, buy recharge,transfer money etc.
+The fintech company has an online payment platform where consumer can pay bills, buy recharge,transfer money etc.
 Some of the billers on the platform are internet service companies, cable TV, Airlines,
-Schools, Utility providers (PHCN, Waterboards, etc), Betting companies, Retail Stores, Hotels and Travel etc
+Schools, Utility providers (PHCN, Waterboards, etc), Betting companies, Retail Stores, Hotels and Travel etc. 
+Here i did an analysis on the platform usage and below were the questions answered.
 
 ## Problem Statement
-
-Show the top 5 products whose availability is critical to ensure sustained revenue.
-show the growth rate of transaction volumes per month.
-Show the growth rate of customer on the platform.
+- Show the Total transaction volume for the six months and monthy
+- Show the total users for the six months and monthly
+- Show the Total transaction volume by products
+- Show the top 5 products whose availability is critical to ensure sustained revenue.
+- show the growth rate of transaction volumes per month.
+- Show the growth rate of customer on the platform.
 
 ## Power BI Concepts applied:
 DAX Concepts: Calculated column, Custom Column, Year(), IF().
