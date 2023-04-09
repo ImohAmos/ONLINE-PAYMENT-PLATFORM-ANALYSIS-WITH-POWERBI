@@ -10,11 +10,7 @@ Some of the billers on the platform are internet service companies, cable TV, Ai
 Schools, Utility providers (PHCN, Waterboards, etc), Betting companies, Retail Stores, Hotels and Travel etc
 
 ## Problem Statement
-How long on average does an order take before delivery?
-What is the total sales made yearly since 2012? Has sales been on the increase since over the yers?
-Which of our customers are most important?
-Which of our products make the greatest profit and which products run the store into loss?
-Any other relevant data-driven insight into our sales.
+
 Show the top 5 products whose availability is critical to ensure sustained revenue.
 show the growth rate of transaction volumes per month.
 Show the growth rate of customer on the platform.
@@ -43,6 +39,16 @@ Datatype then chnged from 'TEXT' TO 'WHOLE NUMBER'.
 Power BI automatically connected related tables resulting in a star schema model. The 'Order' table is the fact table of the model. The remaining two dimension tables; 'Return' table and 'People' table are connected to the 'Order' table via the common columns: 'order ID' and Region respectively.
 
 ## Data Analysis and Visuals
+
+![](PaymentVol.JPG)
+![](Payment_User.JPG)
+![](Payment_growth.JPG)
+![](Payment_txVol.JPG)
+![](payment_dashboard.JPG)
+![](Payment_User.JPG)
+![](payment_top.JPG)
+![](payment_tx_growth.JPG)
+
 From the dashboard, it is observed that it takes 4 days on average to deliver each product on every order.
 Total sales made in 2012= 2.26M, 2013=2.68M ,2014=3.41M ,2015=4.30M.
 Sales is highest in the Western Europe region with almost 450k dollars.
