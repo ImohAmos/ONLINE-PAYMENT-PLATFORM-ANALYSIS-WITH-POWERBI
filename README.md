@@ -40,7 +40,8 @@ Some of the applied steps included
 
 
 ## Data Modelling
-Power BI automatically connected related tables resulting in a star schema model. The 'Order' table is the fact table of the model. The remaining two dimension tables; 'Return' table and 'People' table are connected to the 'Order' table via the common columns: 'order ID' and Region respectively.
+I created a calender table to allow me to slice and dice the data by date attributes such as weekday, month, quarter, and year if needed 
+Power BI automatically created a one-to-many relationship between the ttables resulting in a star schema model. The 'Order' table is the fact table of the model. The remaining two dimension tables; 'Return' table and 'People' table are connected to the 'Order' table via the common columns: 'order ID' and Region respectively.
 
 ## Data Analysis and Visuals
 
