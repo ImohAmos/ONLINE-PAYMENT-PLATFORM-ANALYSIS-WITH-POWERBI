@@ -29,7 +29,7 @@ Data was given by the Company in excel format. I downloaded the csv file, and ex
 The data contains a sheet/table called Payment Table with 4573 rows and 6 columns
 
 ## Data Transformation/Cleaning:
-I cleaned the data efficiently and did some transformations with the Power Query Editor of Power BI.
+- I cleaned the data efficiently and did some transformations with the Power Query Editor of Power BI.
 
 ![](table_payment.JPG)
 
@@ -46,17 +46,31 @@ Power BI automatically created a one-to-many relationship between the [Date] and
 ![](model_payment.JPG)
 
 ## Data Analysis and Visuals
+- I added some measures to help in my analysis
+
+#### Measures that were added are shown below; 
+- [Month on Month Growth rate of users] 
+
+![](mom_users.JPG)
+
+- [Month on Month Transaction Growth Rate]
+
+![](mom_payment.JPG)
+
+Below is the Dashboard I created 
 
 ![](payment_dashboard.JPG)
 
-#### From the dashboard, it is observed that;
-1. Total transaction volume made in the six months from April to September = $106M,and April has the highest with $21M
+[LINK TO POWERBI DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiYTIzNjY2YjMtZDg1NS00YzdhLWJmYzctNThiYTk2MzBkMTZkIiwidCI6IjY4ZDBlMjhiLTg3NTUtNDgzMi1iM2JjLWRhOGQwNjM3YzY5ZCJ9&pageName=ReportSection)
+
+### From the dashboard, it is observed that;
+#### Total transaction volume made in the six months from April to September = $106M,and April has the highest with $21M
 
 
 ![](PaymentVol.JPG)
 
-3. Total number of transactions made in the six months from April to September = 4,573
-4. Total number of Users = 3,295
+#### Total number of transactions made in the six months from April to September = 4,573
+#### Total number of Users = 3,295
  
 ![](Payment_User.JPG)
 
@@ -76,19 +90,11 @@ Power BI automatically created a one-to-many relationship between the [Date] and
 ![](Payment_growth.JPG)
 
 
-![](mom_users.JPG)
-
-![](mom_payment.JPG)
-
-
 
 ## Conclusions & Recommendations
 -Show the top 5 products whose availability is critical to ensure sustained revenue
 
 
-
-
-[LINK TO POWERBI DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiYTIzNjY2YjMtZDg1NS00YzdhLWJmYzctNThiYTk2MzBkMTZkIiwidCI6IjY4ZDBlMjhiLTg3NTUtNDgzMi1iM2JjLWRhOGQwNjM3YzY5ZCJ9&pageName=ReportSection)
 
 
 
