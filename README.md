@@ -40,8 +40,10 @@ Some of the applied steps included
 
 
 ## Data Modelling
-I created a calender table to allow me to slice and dice the data by date attributes such as weekday, month, quarter, and year if needed 
-Power BI automatically created a one-to-many relationship between the ttables resulting in a star schema model. The 'Order' table is the fact table of the model. The remaining two dimension tables; 'Return' table and 'People' table are connected to the 'Order' table via the common columns: 'order ID' and Region respectively.
+I created a calender table to allow me to slice and dice the data by date attributes such as weekday, month, quarter, and year if needed. 
+Power BI automatically created a one-to-many relationship between the [Date] and [Payment] tables resulting in a star schema model. 
+
+![](model_payment.JPG)
 
 ## Data Analysis and Visuals
 
@@ -55,7 +57,7 @@ Power BI automatically created a one-to-many relationship between the ttables re
 ![](payment_tx_growth.JPG)
 ![](mom_users.JPG)
 ![](mom_payment.JPG)
-![](model_payment.JPG)
+
 
 From the dashboard, it is observed that it takes 4 days on average to deliver each product on every order.
 Total sales made in 2012= 2.26M, 2013=2.68M ,2014=3.41M ,2015=4.30M.
