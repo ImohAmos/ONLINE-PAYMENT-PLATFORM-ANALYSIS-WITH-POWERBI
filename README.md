@@ -26,12 +26,14 @@ Data Modelling: Star Schema
 
 ## Data Sourcing
 Data was given by the Company in excel format. I downloaded the csv file, and extracted it into Power BI for cleaning, analysis and visualization.
-The data contains a sheet/table called Payment Table with 4593 rows and 7 columns
-PEOPLE with 24 rows and 2 columns
-RETURNS with 1079 rows and 3 columns
+The data contains a sheet/table called Payment Table with 4573 rows and 6 columns
 
 ## Data Transformation/Cleaning:
-Data was efficiently cleaned and transformed with the Power Query Editor of Power BI. [a screenshot of the applied steps] Some of the applied steps included
+I cleaned the data efficiently and did some transformations with the Power Query Editor of Power BI.
+
+![](table_payment.JPG)
+
+Some of the applied steps included
 Making first row as headers in the PEOPle and RETURN tables.
 Analytical transformation of the 'order table'; To have an idea of how long it takes on average for orders to be dilevered, [delivery days] need to be calculated. Using "custom columns", delivery days = [shipped date] - [order date]
 created new column for year of order date and named: [Order Year]
