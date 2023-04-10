@@ -47,22 +47,24 @@ Power BI automatically created a one-to-many relationship between the [Date] and
 
 ## Data Analysis and Visuals
 
+![](payment_dashboard.JPG)
+
+From the dashboard, it is observed that;
+1. Total transaction volume made in the six months from April to September = $106M,and April has the highest with $21M
+2. Total number of transactions made in the six months from April to September = 4,573
+3. Total number of Users = 3,295
+
+
 ![](PaymentVol.JPG)
 ![](Payment_User.JPG)
 ![](Payment_growth.JPG)
 ![](Payment_txVol.JPG)
-![](payment_dashboard.JPG)
 ![](Payment_User.JPG)
 ![](payment_top.JPG)
 ![](payment_tx_growth.JPG)
 ![](mom_users.JPG)
 ![](mom_payment.JPG)
 
-
-From the dashboard, it is observed that it takes 4 days on average to deliver each product on every order.
-Total sales made in 2012= 2.26M, 2013=2.68M ,2014=3.41M ,2015=4.30M.
-Sales is highest in the Western Europe region with almost 450k dollars.
-Tamara Chand is the most valuable costumer by sales.
 
 
 ## Conclusions & Recommendations
